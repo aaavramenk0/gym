@@ -176,3 +176,95 @@ nav ul li:hover {
     background: linear-gradient(180deg, rgb(18, 34, 137) 0%, rgb(107, 41, 155) 100%);
     cursor: pointer;
 }
+
+.who-we-are-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px; 
+}
+.who-we-are {
+    padding: 50px;
+}
+.who-we-are-wrapper h2 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.who-we-are-wrapper p {
+    font-size: 24px;
+    line-height: 1.5;
+}
+.who-we-are-wrapper img {
+    border-radius: 30px;
+}
+
+.find-gym {
+    background: rgb(141,134,255);
+    background: linear-gradient(90deg, rgba(141,134,255,1) 0%, rgba(255,98,98,1) 100%);
+    padding: 50px;
+    color: white;
+}
+.find-gym-wrapper button {
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    border: 0;
+    background: linear-gradient(180deg, rgb(18, 34, 137) 0%, rgb(107, 41, 155) 100%);
+}
+.find-gym-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    gap: 50px;
+    text-align: center;
+}
+.find-gym-wrapper img {
+    border-radius: 60px;
+}
+
+footer img {
+    height: 50px;
+}
+footer {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }

@@ -23,7 +23,7 @@
             <div class="heading-text">
                 <h1>Енергія в русі</h1>
                 <h2>Power Zone - cпортзал, де здоров'я стає силою, а сила - невмирущістю</h2>
-                <button>Приєднуйся сьогодні</button>
+                <button class="button">Приєднуйся сьогодні</button>
             </div>
             
             <img src="images/bg.jpg" alt="">
@@ -72,19 +72,59 @@
             </div>
 
             <!-- The Modal -->
-            <div id="sport" class="modal">
+            <div id="contact" class="modal">
                 <!-- Modal content -->
                 <div class="modal-content">
                     <span class="close">&times;</span>
-                    <p>Some text in the Modal..</p>
+                    <div class="container">
+                        <form action="submit">
+                            <label for="fname">Ім'я</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Ваше ім'я...">
+
+                            <label for="lname">Прізвище</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Ваше прізвище...">
+
+                            <label for="сoach">Тренер, з яким ви б хотіли займатись</label>
+                            <select id="сoach" name="сoach">
+                                <option value="1">Дарина Окланко</option>
+                                <option value="2">Єгор Клименко</option>
+                                <option value="3">Денис Гулій</option>
+                            </select>
+
+                            <label for="comment">Коментарій</label>
+                            <textarea id="comment" name="comment" placeholder="Залиште коментарій..." style="height:200px"></textarea>
+
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
                 </div>
             </div>
+        </section>
 
+        <section class="who-we-are">
+            <div class="who-we-are-wrapper">
+                <div>
+                    <h2>Про Power Zone</h2>
+                    <p>Спортклуб PowerZone - це фітнес-клуб, спеціалізований на тренуваннях з використанням силових вправ і фітнесу. PowerZone пропонує широкий спектр послуг і тренувань для покращення фізичної форми, зміцнення м'язів, підвищення витривалості та загального здоров'я. У PowerZone працюють професійні тренери, які надають індивідуальні консультації, складають програми тренувань і допомагають досягти поставлених фітнес-цілей. Клуб також має додаткові умови для тренувань, такі як сауна, басейн або масажний кабінет.</p> 
+                </div>
+                
+                <img src="images/who-we-are.jpg" alt="" height="600px">
+            </div>
+        </section>
+
+        <section class="find-gym">
+            <div class="find-gym-wrapper">
+                <div>
+                    <h2>Приєднуйся до нас у спортклуб PowerZone і розпочни свій шлях до здорового тіла та активного способу життя!</h2>
+                    <button class="button">Приєднуйся сьогодні</button> 
+                </div>
+                <img src="images/find-gym.jpg" alt="" height="600px">
+            </div>
         </section>
     </main>
 
     <footer>
-
+        <img src="images/logo.png" alt="">
     </footer>
 
     <script src="js/main.js"></script>
