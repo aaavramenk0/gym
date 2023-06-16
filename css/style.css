@@ -72,6 +72,13 @@ nav ul li:hover {
     cursor: pointer;
     font-weight: 800;
 }
+.social{
+    display: flex;
+    gap: 7px;
+}
+.social img{
+    width: 35px;
+}
 
 .heading {
     padding: 50px;
@@ -232,7 +239,7 @@ footer img {
 footer {
     padding: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
